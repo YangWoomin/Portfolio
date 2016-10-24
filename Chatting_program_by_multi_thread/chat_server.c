@@ -86,7 +86,7 @@ void * handle_clnt(void * arg)
 {
 	int clnt_sock=*((int*)arg);
 	room *myroom, *temp;
-	int str_len=0, i, j, roomNum=0;
+	int str_len=0, i, j;
 	int flag = 0;
 	char msg[MESSAGE_BUF_SIZE];
 	char seps[] = "\n";
@@ -142,26 +142,6 @@ void * handle_clnt(void * arg)
 				return NULL;
 			}
 		}
-
-		/*for(i=0;i<room_count;i++) {
-			printf("token : %s, room_name[%d] : %s\n", token, i, room_name[i]);
-			if(!strcmp(token, room_name[i])) {
-				printf("found it! i : %d, sock : %d\n", i, clnt_sock);
-				client_fd[i][client_count[i]] = clnt_sock;
-				client_count[i]++;
-				roomNum=i;
-				flag = 1;
-				break;
-			}
-		}
-		if(!flag) {
-			printf("token : %s, sock : %d\n", token, clnt_sock);
-			strcpy(room_name[room_count], token);
-			client_fd[room_count][client_count[room_count]] = clnt_sock;
-			client_count[room_count]++;
-			roomNum= room_count;
-			room_count++;
-		}*/
 		pthread_mutex_unlock(&mutx);
 	}
 	else { // if failed, quit this thread
@@ -213,21 +193,6 @@ void * handle_clnt(void * arg)
 			}
 		}
 	}
-	/*for(i=0;i<client_count[roomNum];i++) {
-		if(clnt_sock == client_fd[roomNum][i]) {
-			while(i++<client_count[roomNum] - 1)
-				client_fd[i][roomNum] = client_fd[i+1][roomNum];
-			client_count[roomNum]--;
-			break;
-		}
-	}
-	if(client_count[roomNum] == 0) {
-		i = roomNum;
-		while(i++ < room_count -1) {
-			strcpy(room_name[i], room_name[i+1]);
-		}
-		room_count--;
-	}*/
 	close(clnt_sock); 
 	pthread_mutex_unlock(&mutx);
 	return NULL;
