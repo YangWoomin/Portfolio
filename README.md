@@ -1,7 +1,22 @@
 ﻿
 -------------
 
-###1. 자기소개 
+###1. 소스코드 별 시연 영상 링크
+
+[Get Weapons][1]
+
+[Smart Lens Case1][2]
+[Smart Lens Case2][3]
+
+[멀티 스레드 기반 채팅 프로그램][4]
+
+[온라인 3D 테트리스][5]
+
+[Hacker Rank][6]
+
+-------------
+
+###2. 자기소개 
 
  안녕하십니까? 기업이 놓쳐서는 안 될 인재! 양우민입니다. 저는 남들과는 조금 다르게 인정받고 싶어 하는 욕구가 제일 강한 유형의 사람입니다. 이제부터 이 인정 욕구로부터 뿜어져 나오는 저의 역량에 대해 소개하려 합니다.
 
@@ -19,7 +34,7 @@
 
 -------------
 
-###2. 주요 전공과목 설명
+###3. 주요 전공과목 설명
 
 1) 컴퓨터공학 입문 (2014년 1학기) : 컴퓨터공학 분야에 대한 학습
 
@@ -70,3 +85,10 @@
 24) 졸업설계 1, 2 (2016년) : 졸업작품으로 Unity 엔진 기반 모바일 FPS 게임 제작
 
 -------------
+
+[1]: https://www.youtube.com/watch?v=0Kbl6GyQW1U&feature=youtu.be
+[2]: https://www.youtube.com/watch?v=tow8_QtblWU
+[3]: https://www.youtube.com/watch?v=4CQZW3Me_dM
+[4]: https://www.youtube.com/watch?v=6Vu56Nu6OrI&feature=youtu.be
+[5]: https://www.youtube.com/watch?v=2vrGsw59Nmo&feature=youtu.be
+[6]: https://www.hackerrank.com/cicyowoo
