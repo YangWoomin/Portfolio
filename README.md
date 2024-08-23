@@ -3,7 +3,7 @@
 
 ### 포트폴리오 설명서
 
-[Portfolio](Portfolio_YangWoomin.pdf)
+[Portfolio_YangWoomin.pdf](Portfolio_YangWoomin.pdf)
 
 ### 프로젝트 별 시연 영상
 
